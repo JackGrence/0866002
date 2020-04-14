@@ -25,7 +25,7 @@ class PriorityQueueTest {
 
     static Stream<Arguments> integerParameters() {
         return Stream.of(
-                arguments(Arrays.asList(1, 5, 3, 4, 10), Arrays.asList(1, 3, 4, 5, 10)),
+                arguments(Arrays.asList(1, 5, 3, 4, 10), Arrays.asList(3, 1, 4, 5, 10)),
                 arguments(Arrays.asList(80, 50, -3, 4, 10), Arrays.asList(-3, 4, 10, 50, 80)),
                 arguments(Arrays.asList(1, 50, 3, 4, 10), Arrays.asList(1, 3, 4, 10, 50)),
                 arguments(Arrays.asList(18, 5, 30, 4, -10), Arrays.asList(-10, 4, 5, 18, 30)),
